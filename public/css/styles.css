@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.heading{
+    margin: 2vh;
+    font-size: 2.5em;
+}
+
+.nav{
+    background-color: #222831;
+    font-size: 1.2em;
+}
+
+.nav > ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav > ul > li{
+    float: left;
+}
+
+
+.nav  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 2vh 2vw;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: #222831
+}
+
+#weather-form input{
+    height: 3vh;
+    width: 30%;
+    font-size: 1.3em;
+    margin-bottom: 2vh;
+}
+
+#weather-form button{
+    height: 4vh;
+    padding: 0 1vw;
+}
+
+#success, #error{
+    margin: 2vh;
+    font-size: 1.2em;
+}
+
+#error{
+    color: #D8000C;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222831;
+    color: white;
+    width: 100%;
+    padding: 2vh 0;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: white;
+}
+
+.heart{
+    color:#e25555;
+}
+
+.desc{
+    font-size: 1.3em;
+}
