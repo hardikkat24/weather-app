@@ -43,9 +43,9 @@ body{
 }
 
 #weather-form input{
-    height: 3vh;
+    height: 1.5em;
     width: 30%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 2vh;
 }
 
